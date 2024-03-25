@@ -1,0 +1,4 @@
+baseURL = 'https://hashbadg.dev'
+languageCode = 'en-us'
+title = 'HashBadG'
+theme = 'PaperMod'
