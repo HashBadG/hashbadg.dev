@@ -54,6 +54,7 @@ apple_touch_icon = "images/apple-touch-icon.png"
 [params]
 ShowReadingTime = true
 author = "HashBadG"
+ShowPostNavLinks = true
 
 [params.cover]
 responsiveImages = false
@@ -61,5 +62,23 @@ linkFullImages = true
 
 [[outputs]]
 home = ["HTML","RSS","JSON"]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/aboutme/"
+weight = 20
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 30
 
 
