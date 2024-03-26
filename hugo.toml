@@ -2,3 +2,64 @@ baseURL = 'https://www.hashbadg.dev'
 languageCode = 'en-us'
 title = 'HashBadG'
 theme = 'PaperMod'
+[params.profileMode]
+  enabled = true
+  title = "Welcome !" # optional default will be site title
+  subtitle = "HashBadG | Cybersecurity Engineer & CTF Player"
+  imageUrl = "images/no_signal.gif" # optional
+  imageTitle = "HashBadG's profile picture" # optional
+  imageWidth = 150 # custom size
+  imageHeight = 150 # custom size
+
+[[params.profileMode.buttons]]
+  name = "About me"
+  url = "/aboutme"
+
+[[params.profileMode.buttons]] # optional
+  name = "Root-Me"
+  url = "https://www.root-me.org/H4shBadG"
+
+[[params.socialIcons]] # optional
+  name = "HackTheBox"
+  url = "https://app.hackthebox.com/profile/312386"
+
+[[params.socialIcons]]
+  name = "CTFTime"
+  url = "https://ctftime.org/team/200877/"
+
+[[params.socialIcons]]
+  name = "Github"
+  url = "https://github.com/HashBadG/"
+
+[[params.socialIcons]] # optional
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/bpitg/"
+
+[[params.socialIcons]]
+  name = "X"
+  url = "https://x.com/H4shB"
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "monokai"
+
+[params.assets]
+favicon ="images/favicon.ico"
+favicon16x16 = "images/favicon-16x16.png"
+favicon32x32 = "images/favicon-32x32.png"
+apple_touch_icon = "images/apple-touch-icon.png"
+
+[params]
+ShowReadingTime = true
+author = "HashBadG"
+
+[params.cover]
+responsiveImages = false
+linkFullImages = true
+
+[[outputs]]
+home = ["HTML","RSS","JSON"]
+
+
