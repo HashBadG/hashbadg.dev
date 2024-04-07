@@ -72,7 +72,7 @@ index="botsv1" imreallynotbatman.com
 | stats count by src_ip, src_headers
 ```
 
-Related to Q2. 
+Related to Q2.
 
 **Reponse :**
 

@@ -11,7 +11,7 @@ cover:
 
 ## Quick presentation
 
-Hey there ! I am HashBadG, a french cybersecurity engineer. I am currently searching for a job as I finished my academic studies. 
+Hey there ! I am HashBadG, a french cybersecurity engineer. I am currently searching for a job as I finished my academic studies.
 
 ## Hobbies
 
