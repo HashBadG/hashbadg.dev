@@ -3,7 +3,7 @@ title: '[Cyberdefenders] - PoisonnedCredentials'
 date: '08/04/2024'
 lastmod: '08/04/2024'
 tags: ['PCAP', 'Wireshark', 'Credentials']
-summary: 'Here is my writeup for WebStrike challenge that I completed on Cyberdefenders.'
+summary: 'Here is my writeup for PoisonnedCredentials challenge that I completed on Cyberdefenders.'
 draft: false
 author: ['H4shBadG']
 ---
