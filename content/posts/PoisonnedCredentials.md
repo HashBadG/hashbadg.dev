@@ -28,12 +28,12 @@ Filtering with LLMNR response, I observed that another response has been sent to
 
 Filtering on the second attack vector (192.168.232.176), I found some NTLMSSP_AUTH packet requesting a ticket for the user `janesmith`.
 
-![Janesmith Takeover](../images/PoisonnedCredentials/PoisonnedCreds.png)
+![Janesmith Takeover](/images/PoisonnedCredentials/PoisonnedCreds.png)
 
 ## Q5 - As part of our investigation, we aim to understand the extent of the attacker's activities. What is the hostname of the machine that the attacker accessed via SMB?
 
 On the same packet, I looked at the SMB information provided when a NTLM request is made and I found the following information :
 
-![SMB Information](../images/PoisonnedCredentials/PoisonnedCreds-2.png)
+![SMB Information](/images/PoisonnedCredentials/PoisonnedCreds-2.png)
 
 Following the DNS computer name, I see that the infected workstation is named `AccountingPC`.

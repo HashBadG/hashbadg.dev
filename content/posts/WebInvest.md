@@ -31,7 +31,7 @@ The IP of this attacker is the one below :
 ## Q2 - If the geographical origin of an IP address is known to be from a region that has no business or expected traffic with our network, this can be an indicator of a targeted attack. Can you determine the origin city of the attacker?
 
 Giving this IP address to [ipinfo.io](https://ipinfo.io/). We found the following information :
-![WebInvest-Q2](../images/WebInvest/WebInvest-Q2.png)
+![WebInvest-Q2](/images/WebInvest/WebInvest-Q2.png)
 
 So it's pretty straight forward that the answer we are looking for is **Shijiazhuang**
 
