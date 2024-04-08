@@ -1,5 +1,5 @@
 ---
-title: '[Cyberdefenders] - WebInvest'
+title: '[Cyberdefenders] - WebStrike'
 date: '08/04/2024'
 lastmod: '08/04/2024'
 tags: ['Network Analysis', 'PCAP', 'Wireshark', 'Exfiltration']
