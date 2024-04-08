@@ -55,6 +55,7 @@ apple_touch_icon = "images/apple-touch-icon.png"
 ShowReadingTime = true
 author = "HashBadG"
 ShowPostNavLinks = true
+env = production
 
 [params.cover]
 responsiveImages = false
