@@ -19,6 +19,10 @@ theme = 'PaperMod'
   name = "Root-Me"
   url = "https://www.root-me.org/H4shBadG"
 
+[[params.profileMode.buttons]] # optional
+  name = "Cyberdefenders"
+  url = "https://cyberdefenders.org/p/H4shBadG#/overview"
+
 [[params.socialIcons]] # optional
   name = "HackTheBox"
   url = "https://app.hackthebox.com/profile/312386"
